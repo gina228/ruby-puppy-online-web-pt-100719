@@ -15,10 +15,6 @@ class Dog
       puts dog.name
     end 
   end 
-
-  def print_all
-    @@all
-  end 
   
   def self.clear_all
     @all.clear
